@@ -1,1 +1,20 @@
+import os
+os.environ['KAGGLE_USERNAME']='your_kaggle_username'
+os.environ['KAGGLE_KEY']='key_from_your_kaggle'
+
+How to get key:
+1-->login to kaggle
+2-->click on your profile
+3-->click on settings
+4-->scroll down to 'api' and click 'create new token' then .json file will be downloaded
+5-->enter the username and key
+
+run the below code a zip file is generated
 !kaggle datasets download tawsifurrahman/covid19-radiography-database
+
+run this to unzip
+!unzip covid19-radiography-database.zip 
+
+[OR]
+
+download the data and upload to your drive
