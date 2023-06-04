@@ -14,8 +14,13 @@ You can use Google Colab or Jupyter notebook for the code execution.
 **Model Architecture:**
 The CNN model used in this project consists of multiple layers designed to extract meaningful features from the input images and make predictions. The architecture of the model is as follows:
 **1.Convolutional Layers:**
+
     -->The model starts with a Conv2D layer with 32 filters and a 3x3 kernel size, using the ReLU activation function.
+    
+    
     -->This is followed by a MaxPooling2D layer to downsample the spatial dimensions.
+    
+    
     -->Two more Conv2D layers with 16 filters and a 3x3 kernel size are added, each followed by a MaxPooling2D layer.
 **2.Flatten Layer:**
     -->After the convolutional layers, a Flatten layer is used to convert the 2D feature maps into a 1D feature vector.
